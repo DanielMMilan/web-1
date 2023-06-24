@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body bgcolor="868893">
+    <!-- form para formularios -->
+    <form action="" method="get">
+      <label for="name">Nombre:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Escriba su nombre"
+        maxlength="15"
+        minlength="5"
+      />
+      <label for="pass">Contraseña:</label>
+      <input type="password" name="password" id="password" />
+
+      <label for="number">Edad</label>
+      <input
+        type="number"
+        name="numero"
+        id="numero"
+        minlength="1"
+        maxlength="20"
+      />
+      <label for="Correo">Correo</label>
+      <input type="email" id="correo" />
+
+      <label for="color">Color</label>
+      <input type="color" id="color" />
+
+      <label for="archivo">Archivo</label>
+      <input type="file" id="archivo" />
+
+      <br />
+      <label for="radio">Seleccione su genero</label>
+      <br />
+      <label for="">Masculino</label>
+      <input type="radio" name="genero" value="1" />
+      <br />
+      <label for="">Femenino</label>
+      <input type="radio" name="genero" value="2" />
+      <br />
+      <label for="">Otro</label>
+      <input type="radio" name="genero" value="3" />
+      <br />
+
+      <br />
+      <label for="checkbox">Seleccione su color</label>
+      <br />
+      <label for="">Rojo</label>
+      <input type="checkbox" name="colores" value="rojo" />
+      <br />
+      <label for="">Negro</label>
+      <input type="checkbox" name="colores" value="negro" />
+      <br />
+      <label for="">Azul</label>
+      <input type="checkbox" name="colores" value="azul" />
+      <br />
+
+      <label for="datetime">Fecha</label>
+      <input type="datetime" name="datetime" />
+
+      <br />
+      <br />
+      <!-- textarea -->
+      <label for="direccion"></label>
+      <textarea
+        name=""
+        cols="20"
+        rows="10"
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+
+      <label for="marcas">Marcas</label>
+      <select name="marcas" id="">
+        <option value="1">Honda</option>
+        <option value="2">Toyota</option>
+        <option value="3">Mazda</option>
+      </select>
+
+      <input type="reset" value="Resetear" />
+      <input type="submit" value="Aceptar" />
+
+      <button click=""></button>
+    </form>
+  </body>
+</html>

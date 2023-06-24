@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 4</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#hypervinculo">Ir a hypervinculos</a></li>
+        <li><a href="#listasOrdenadas">Ir a Listas Ordenadas</a></li>
+        <li><a href="#listasDesordenadas">Ir a Listas Desordenadas</a></li>
+      </ul>
+    </nav>
+    <h1>Listas</h1>
+    <!-- TYPES A numerica, a alfanumerica, I numeros romanos mayuscula, i same pero en minuscula -->
+    <!-- ol se utiliza para listas ordenadas y li son las opciones que esta lleva dentro -->
+    <a name="listasOrdenadas"></a>
+    <h2>Listas ordenadas</h2>
+    Colores
+    <ol type="A">
+      <li>NEGRO</li>
+      <li>Rojo</li>
+      <li>Verde</li>
+      <li>Azul</li>
+      <li>Amarillo</li>
+      <li>Amarillo</li>
+    </ol>
+
+    Colores
+    <ol type="I">
+      <li>NEGRO</li>
+      <li>Rojo</li>
+      <li>Verde</li>
+      <li>Azul</li>
+      <li>Amarillo</li>
+      <li>Amarillo</li>
+    </ol>
+
+    <!-- ol>li*3>a -->
+    <!-- con linea 24 se genera lo siguiente de forma automatica-->
+    <!-- lista ordenada con hypervinculos dentro -->
+    <ol>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ol>
+
+    <a name="listasDesordenadas"></a>
+    <h2>Listas Desordenadas</h2>
+    Frutas
+    <ul type="circle">
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandia</li>
+    </ul>
+
+    Frutas
+    <ul type="disc">
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandia</li>
+    </ul>
+
+    Frutas
+    <ul type="square">
+      <li>Manzana</li>
+      <li>Pera</li>
+      <li>Sandia</li>
+    </ul>
+
+    <h2>Listas de definicion</h2>
+    <dl>
+      <dt>SIDA</dt>
+      <dd>Sindrome de inmudeficiencia.....</dd>
+      <dt>UTN</dt>
+      <dd>Universidad Tecnica Nacional</dd>
+    </dl>
+
+    <!-- ol>li*3>ul>li2 -->
+    <!-- linea 73 me crea listas anidadas de la siguiente forma -->
+    Perros
+    <ol>
+      <li>
+        Raza de Perro
+        <ul>
+          <li>Pastor</li>
+          <li>Rotweiller</li>
+        </ul>
+      </li>
+      <li>
+        Raza de gato
+        <ul>
+          <li>Siames</li>
+          <li>Persa</li>
+        </ul>
+      </li>
+      <li>
+        Raza de caballos
+        <ul>
+          <li>Pecheron</li>
+          <li>Español</li>
+        </ul>
+      </li>
+    </ol>
+
+    <a name="hypervinculo"></a>
+    <h1>hypervinculos</h1>
+    <h2>Internos</h2>
+    <a href="contactenos.html">Contactenos</a>
+    <h2>Externos</h2>
+    <a href="https://campusvirtual.utn.ac.cr/my/courses.php">Campus Virtual</a>
+    <a href="https://www.utn.ac.cr/">
+      <img
+        src="data:image/png;base64,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"
+        alt="Imagen del Logo de Ferrari"
+        srcset=""
+        width="100px"
+        height="100px"
+      />
+    </a>
+
+    <a href="">
+      <img src="" alt="" height="" width="" />
+    </a>
+    <h3>Anclas</h3>
+
+    <!-- Video propio de carpeta -->
+    <h2>Video</h2>
+    <video width="250px" height="250px">
+      <source src="" />
+    </video>
+
+    <!-- Video externo -->
+    <iframe
+      src="https://youtu.be/9Ifzj9mCeFA"
+      width="250px"
+      height="250px"
+      frameborder="0"
+    ></iframe>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/9Ifzj9mCeFA"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <!-- tr filas td celdas/columnas th para headers dentro de la tabla -->
+    <table border="1" width="150px">
+      <caption>
+        Tabla regular
+      </caption>
+      <tr>
+        <td>R1 C1</td>
+        <td>R1 C2</td>
+      </tr>
+      <tr>
+        <td>R2 C1</td>
+        <td>R2 C2</td>
+      </tr>
+      <tr>
+        <td>R3 C1</td>
+        <td>R3 C2</td>
+      </tr>
+    </table>
+
+    <table border="1" width="150px">
+      <caption>
+        Tabla Irregular
+      </caption>
+      <tr>
+        <td>R1 C1</td>
+      </tr>
+      <tr>
+        <td>R2 C1</td>
+        <td>R2 C2</td>
+      </tr>
+      <tr>
+        <td>R3 C1</td>
+        <td>R3 C2</td>
+        <td>R3 C3</td>
+      </tr>
+    </table>
+  </body>
+</html>
