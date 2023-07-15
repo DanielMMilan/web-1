@@ -1,0 +1,61 @@
+*{
+    background-color: #fff;
+    color: #fff;
+}
+nav.menu span.options ul li a {
+    color: orange;
+}
+
+div#page > div{
+    background-color: aquamarine;
+    width: 100px;
+}
+
+div#page + div + div{
+    background-color: aquamarine;
+    width: 100px;
+}
+
+div.post span + span{
+    background-color: chocolate;
+}
+
+div.post strong ~ strong{
+    background-color: #ff0000;
+}
+div#menu *{
+    background-color: #ee9898;
+    width: 100px;
+}
+
+div#menu h1:hover{
+    background-color: #ff0000;
+}
+
+.nombre:focus{
+    background-color: #63a774;
+}
+
+.imagen{
+    width: 250px;
+    height: 250px;
+    
+    background-repeat: no-repeat;
+    
+}
+
+.imagen:hover{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+
+    /* 0: x 3px: y 6px: blur 10px:tamaño del blur */
+    box-shadow: 0 3px 6px 10px rgba(0, 0, 0, 0.16),
+    0 3px 6px 10px rgba(0, 0, 0, 0.23);
+
+
+
+
+    transform: translate(0px, -8px);
+
+}
